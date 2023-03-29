@@ -1,0 +1,33 @@
+.info_cards_cont{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.info_card{
+    margin: 10px;
+    width: 300px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.img_card{
+    height: 70px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card_title{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card_info{
+    margin: 15px;
+    text-align: justify-all;
+}
