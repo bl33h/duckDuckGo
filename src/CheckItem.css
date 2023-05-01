@@ -1,12 +1,12 @@
-.badges{
-    color: white;
+.badges {
+  color: rgb(49, 49, 49);
 }
 
-.badge{
-    display: inline;
-    padding: 10px;
+.badge {
+  display: inline;
+  padding: 10px;
 }
 
-.check_badge{
-    padding-right: 10px;
+.check_badge {
+  padding-right: 10px;
 }

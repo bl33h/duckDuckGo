@@ -13,13 +13,13 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #dfe0ffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #f1fbfeaa);
 }
 
-.main_logo{
+.main_logo {
   height: 13em;
 }
 
@@ -46,18 +46,17 @@
   color: #888;
 }
 
-.fondoup{
-  background-color: #353748;
+.fondoup {
+  background-color: #ffffff;
   margin: 0%;
 }
 
-.fondodown{
-  background-color: #58b792;
+.fondodown {
+  background-color: #e37151;
   margin: 0%;
 }
 
-.curva{
-  color: #58b792;
+.curva {
+  color: #e37151;
   display: block;
 }
-
