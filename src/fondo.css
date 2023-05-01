@@ -1,3 +1,10 @@
+/* Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+     @author Sara Echeverria
+     FileName: fondo.css
+     @version: I
+     Creation: 28/03/2023
+     Last modification: 01/05/2023 */
+
 .body {
   background: linear-gradient(to right, #ffffff 50%, #ffbf10 50%);
 }

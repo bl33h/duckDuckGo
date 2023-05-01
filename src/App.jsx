@@ -1,3 +1,10 @@
+/* Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+     @author Sara Echeverria
+     FileName: App.jsx
+     @version: I
+     Creation: 28/03/2023
+     Last modification: 01/05/2023 */
+
 import React from "react";
 import { useState } from "react";
 import duckLogo from "./Logo.jsx";
