@@ -5,27 +5,23 @@
      Creation: 28/03/2023
      Last modification: 01/05/2023 */
 
-import React from "react";
-import { useState } from "react";
-import duckLogo from "./Logo.jsx";
-import "./Textdesc.jsx";
-import "./App.css";
-import "./CheckItem.css";
-import { Textdesc, Textdescparagraph } from "./Textdesc.jsx";
-import { CheckItem } from "./CheckItem";
-import { InfoCards } from "./InfoCards.jsx";
-import { Button } from "./Button.jsx";
-import { Input } from "./Input.jsx";
-import "./fondo.css";
+import React from 'react'
+import Logo from './components/Logo'
+import { Textdesc, Textdescparagraph } from './components/Textdesc'
+import './App.css'
+import './components/CheckItem.css'
+import CheckItem from './components/CheckItem'
+import InfoCards from './components/InfoCards'
+import Button from './components/Button'
+import Input from './components/Input'
+import './components/fondo.css'
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div classname="App">
+    <div className="App">
       <div className="fondoup">
         <div className="logo">
-          <img src={duckLogo} alt="DuckDuckGo logo" className="main_logo" />
+          <Logo />
         </div>
         <Input />
         <Textdesc className="textdesc">
@@ -36,7 +32,7 @@ function App() {
           gratis con una descarga:
         </Textdescparagraph>
         <CheckItem />
-        <Button className="blue"> Añadir DuckDuckGo a Chrome</Button>
+        <Button className="blue">Añadir DuckDuckGo a Chrome</Button>
         <Textdescparagraph className="textdescpar">
           ¡Con la confianza de decenas de millones de personas en todo el mundo!
         </Textdescparagraph>
@@ -58,17 +54,20 @@ function App() {
 
       <div className="fondodown">
         <InfoCards />
-        <Textdesc className="textD" style={{ color: "#ffffff" }}>
-          No almacenamos tu<br></br> información personal. Nunca.
+        <Textdesc className="textD" style={{ color: '#ffffff' }}>
+          No almacenamos tu
+          <br />
+          información personal. Nunca.
         </Textdesc>
         <Textdescparagraph className="textD">
-          Nuestra política de privacidad es simple: No colectamos <br></br> o
-          compartimos ninguna información personal tuya.
+          Nuestra política de privacidad es simple: No colectamos
+          <br />
+          o compartimos ninguna información personal tuya.
         </Textdescparagraph>
-        <Button className="orange">Instalar DuckDuckGo </Button>
+        <Button className="orange">Instalar DuckDuckGo</Button>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
