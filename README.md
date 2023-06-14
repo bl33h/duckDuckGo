@@ -6,7 +6,7 @@ Experience the familiar Duck Duck Go search interface in this replica, built wit
 
 <p align="center">
   <br>
-  <img src="https://i.imgur.com/pmjxiIR.png" alt="pic" width="400">
+  <img src="https://i.imgur.com/vo9l7eG.png" alt="pic" width="400">
   <br>
 </p>
 <p align="center" >
