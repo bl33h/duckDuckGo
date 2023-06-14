@@ -1,8 +1,8 @@
 # duckDuckGo
+
 A replica of the Duck Duck Go search engine, developed using React and Vite. The project includes comprehensive testing with ESLint for code quality and adherence to best practices.
 
 Experience the familiar Duck Duck Go search interface in this replica, built with React for dynamic user interactions and Vite for fast development and bundling. The implementation also prioritizes code quality with ESLint, ensuring clean and maintainable code.
-
 
 <p align="center">
   <br>
@@ -22,7 +22,8 @@ Experience the familiar Duck Duck Go search interface in this replica, built wit
 
 ## Features
 
-* Vite
+- Vite
+
 ```bash
 # Install dependencies
 $ npm i
@@ -35,7 +36,6 @@ $ npm run dev
 - src: the file that implements de solution.
 - assets: resources that are used in an application.
 - components: reusable pieces of code that define the appearance and behavior of a part of the UI.
-
 
 ## How To Use
 
@@ -52,7 +52,6 @@ $ npm i
 # Run the app
 $ npm run dev
 ```
-
 
 ## Eslint testing
 
