@@ -13,7 +13,7 @@ Experience the familiar Duck Duck Go search interface in this replica, built wit
   <a href="#features">Features</a> •
   <a href="#Files">Files</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#eslint-test">Testing</a> •
+  <a href="#eslint-testing">Testing</a> •
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
