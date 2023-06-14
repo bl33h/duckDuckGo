@@ -54,7 +54,7 @@ $ npm run dev
 ```
 
 
-## Eslint test
+## Eslint testing
 
 ```bash
 # Run the tests
